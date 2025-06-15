@@ -59,12 +59,12 @@ arrays. Similar to `ndgrid` in Matlab.
 julia> x, y = collect([1,2] ⨱ [2,3,4]);
 
 julia> x
-2×3 Array{Int64,2}:
+2×3 Matrix{Int64}:
  1  1  1
  2  2  2
 
 julia> y
-2×3 Array{Int64,2}:
+2×3 Matrix{Int64}:
  2  3  4
  2  3  4
 ```
