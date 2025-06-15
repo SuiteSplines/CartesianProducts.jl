@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"#CartesianProducts","page":"Home","title":"CartesianProducts","text":"","category":"section"},{"location":"#Index","page":"Home","title":"Index","text":"","category":"section"},{"location":"","page":"Home","title":"Home","text":"","category":"page"},{"location":"#Base.collect-Tuple{CartesianProduct}","page":"Home","title":"Base.collect","text":"collect(X)\n\nCollect values of CartesianProduct{T,Dim} in Dim-dimensional arrays. Similar to ndgrid in Matlab.\n\nExamples:\n\njulia> x, y = collect([1,2] ⨱ [2,3,4]);\n\njulia> x\n2×3 Matrix{Int64}:\n 1  1  1\n 2  2  2\n\njulia> y\n2×3 Matrix{Int64}:\n 2  3  4\n 2  3  4\n\n\n\n\n\n","category":"method"}]
+}
