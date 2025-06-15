@@ -56,7 +56,7 @@ arrays. Similar to `ndgrid` in Matlab.
 
 # Examples:
 ```jldoctest
-julia> x, y = collect([1,2] × [2,3,4]);
+julia> x, y = collect([1,2] ⨱ [2,3,4]);
 
 julia> x
 2×3 Array{Int64,2}:
